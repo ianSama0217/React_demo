@@ -1,3 +1,4 @@
+import UseCallbackDemo from "../../containers/reactHook/useCallback";
 import UseContextDemo from "../../containers/reactHook/useContext";
 import UseEffectDemo from "../../containers/reactHook/useEffect";
 import UseMemoDemo from "../../containers/reactHook/useMemo";
@@ -16,4 +17,5 @@ export const routerListData: Array<routerProps> = [
   { title: "useRef", path: "/useRef", element: <UseRefDemo /> },
   { title: "useMemo", path: "/useMemo", element: <UseMemoDemo /> },
   { title: "useContext", path: "/useContext", element: <UseContextDemo /> },
+  { title: "useCallback", path: "/useCallback", element: <UseCallbackDemo /> },
 ];
