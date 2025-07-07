@@ -1,3 +1,4 @@
+import UseContextDemo from "../../containers/reactHook/useContext";
 import UseEffectDemo from "../../containers/reactHook/useEffect";
 import UseMemoDemo from "../../containers/reactHook/useMemo";
 import UseRefDemo from "../../containers/reactHook/useRef";
@@ -14,4 +15,5 @@ export const routerListData: Array<routerProps> = [
   { title: "useEffect", path: "/useEffect", element: <UseEffectDemo /> },
   { title: "useRef", path: "/useRef", element: <UseRefDemo /> },
   { title: "useMemo", path: "/useMemo", element: <UseMemoDemo /> },
+  { title: "useContext", path: "/useContext", element: <UseContextDemo /> },
 ];
