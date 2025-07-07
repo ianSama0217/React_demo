@@ -2,6 +2,7 @@ import UseCallbackDemo from "../../containers/reactHook/useCallback";
 import UseContextDemo from "../../containers/reactHook/useContext";
 import UseEffectDemo from "../../containers/reactHook/useEffect";
 import UseMemoDemo from "../../containers/reactHook/useMemo";
+import UseReducerDemo from "../../containers/reactHook/useReducer";
 import UseRefDemo from "../../containers/reactHook/useRef";
 import UseStateDemo from "../../containers/reactHook/useState";
 
@@ -18,4 +19,5 @@ export const routerListData: Array<routerProps> = [
   { title: "useMemo", path: "/useMemo", element: <UseMemoDemo /> },
   { title: "useContext", path: "/useContext", element: <UseContextDemo /> },
   { title: "useCallback", path: "/useCallback", element: <UseCallbackDemo /> },
+  { title: "useReducer", path: "/useReducer", element: <UseReducerDemo /> },
 ];
